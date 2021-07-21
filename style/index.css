@@ -1,0 +1,63 @@
+/** @format */
+
+body {
+	font-family: emoji;
+	font-size: 30pt;
+	background-color: #132c33;
+	margin: 2cm;
+}
+p {
+	font-family: courier;
+	font-size: 20pt;
+	font-weight: bold;
+	text-align: center;
+	color: #d8e3e7;
+}
+.tabla {
+	border-style: solid;
+	border-color: #126e82;
+	border-width: 3px;
+	font-family: emoji;
+	font-size: 15pt;
+	background-color: #126e82;
+}
+.fila {
+	background-color: #132c33;
+}
+
+.titulo {
+	font-family: cursive;
+	color: #d8e3e7;
+	font-size: 14pt;
+	text-align: center;
+}
+
+a:link {
+	font-family: emoji;
+	font-size: 12pt;
+	text-align: center;
+	font-weight: bold;
+	color: #d8e3e7;
+	text-decoration: none;
+}
+a:visited {
+	font-family: emoji;
+	font-size: 12pt;
+	text-align: center;
+	font-weight: bold;
+	color: #d8e3e7;
+	text-decoration: none;
+}
+a:active {
+	font-family: emoji;
+	font-size: 12pt;
+	text-align: center;
+	font-weight: bold;
+	color: #d8e3e7;
+	text-emphasis: none;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
