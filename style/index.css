@@ -3,22 +3,34 @@
 body {
 	font-family: emoji;
 	font-size: 30pt;
-	background-color: #132c33;
+	background-color: #d8e3e7;
 	margin: 2cm;
+}
+h1 {
+	font-family: courier;
+	font-size: 35pt;
+	font-weight: bold;
+	text-align: center;
+	-webkit-text-fill-color: black;
+	-webkit-text-stroke: 1px #132c33;
 }
 p {
 	font-family: courier;
-	font-size: 20pt;
+	font-size: 35pt;
 	font-weight: bold;
 	text-align: center;
-	color: #d8e3e7;
+	-webkit-text-fill-color: black;
+	-webkit-text-stroke: 1px #132c33;
 }
 .tabla {
+	border: 0;
+	height: 400px;
+	width: 600px;
 	border-style: solid;
 	border-color: #126e82;
-	border-width: 3px;
+	border-width: 10px;
 	font-family: emoji;
-	font-size: 15pt;
+	font-size: 14pt;
 	background-color: #126e82;
 }
 .fila {
@@ -28,13 +40,14 @@ p {
 .titulo {
 	font-family: cursive;
 	color: #d8e3e7;
-	font-size: 14pt;
-	text-align: center;
+	font-size: 18pt;
+	-webkit-text-fill-color: black;
+	-webkit-text-stroke: 1px #132c33;
 }
 
 a:link {
 	font-family: emoji;
-	font-size: 12pt;
+	font-size: 16pt;
 	text-align: center;
 	font-weight: bold;
 	color: #d8e3e7;
